@@ -3,14 +3,20 @@ html {
     font-family: big-caslon-fb, serif;
 }
 
+:root {
+    --bg-color: #fff3b0;
+    --text-color: #313131;
+}
+
 body {
-    background: #FEFBE2;
+    background: var(--bg-color);
+    
 }
 
 a {
     text-decoration: underline;
     font-weight: 600;
-    color: #22223b;
+    color: var(--text-color);
 }
 
 p {
@@ -52,10 +58,10 @@ p {
 .content {
     font-size: 3rem;
     line-height: 4rem;
-    color: #22223b;
-    max-width: 60%;
+    color: var(--text-color);
+    max-width: 50%;
     text-align: justify;
-    margin: 20rem auto;
+    margin: 12rem auto;
 }
 
 .content-block {

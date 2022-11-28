@@ -6,6 +6,7 @@ html {
 :root {
     --bg-color: #fff3b0;
     --text-color: #313131;
+    --highlight-color: #ffc8dd;
 }
 
 body {
@@ -66,6 +67,14 @@ p {
 
 .content-block {
     margin-bottom: 1.5rem;
+}
+
+::selection {
+    background: var(--highlight-color); /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: var(--highlight-color); /* Gecko Browsers */
 }
 
 @media screen and (max-width: 900px) {

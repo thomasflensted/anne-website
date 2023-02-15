@@ -11,7 +11,7 @@ html {
 
 body {
     background: var(--bg-color);
-    
+
 }
 
 a {
@@ -60,7 +60,7 @@ p {
     font-size: 3rem;
     line-height: 4rem;
     color: var(--text-color);
-    max-width: 50%;
+    max-width: 70%;
     text-align: justify;
     margin: 12rem auto;
 }
@@ -70,11 +70,13 @@ p {
 }
 
 ::selection {
-    background: var(--highlight-color); /* WebKit/Blink Browsers */
+    background: var(--highlight-color);
+    /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-    background: var(--highlight-color); /* Gecko Browsers */
+    background: var(--highlight-color);
+    /* Gecko Browsers */
 }
 
 @media screen and (max-width: 900px) {
@@ -85,4 +87,3 @@ p {
         max-width: 80%;
     }
 }
-  

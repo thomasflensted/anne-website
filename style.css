@@ -57,12 +57,12 @@ p {
 }
 
 .content {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
     color: var(--text-color);
-    max-width: 70%;
+    max-width: 40%;
     text-align: justify;
-    margin: 12rem auto;
+    margin: 6rem auto 0;
 }
 
 .content-block {
@@ -86,4 +86,30 @@ p {
         text-align: left;
         max-width: 80%;
     }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+    max-width: 40%;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.link-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.link-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.75rem;
 }

@@ -1,0 +1,1 @@
+### Static website for Anne. Just HTML, CSS and vanilla JS.

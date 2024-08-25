@@ -13,7 +13,7 @@ function App() {
     <div className='font-serifFont'>
       <NavBar setLanguage={setLanguage} language={language} />
       <main className='flex justify-center mt-6'>
-        <div className='flex flex-col w-1/2 gap-8'>
+        <div className='flex flex-col w-1/3 gap-8'>
           <TextBlock language={language} />
           <Contact />
           <Portfolio language={language} />
